@@ -158,5 +158,5 @@ Download from UCI repository and place
 
 **Shivam Saurav**
 - GitHub  : github.com/saurav307
-- LinkedIn: https://www.linkedin.com/in/shivam-saurav-3062bb277//in/yourprofile
+- LinkedIn: https://www.linkedin.com/in/shivam-saurav-3062bb277/
 - Email   : dar.saurav@email.com
