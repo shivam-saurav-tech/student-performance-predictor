@@ -1,4 +1,4 @@
-# Student Performance Predictor
+# Student Performance Predictor 🧩
 
 A machine learning project that predicts whether a student will
 pass or fail their final exam using behavioral and demographic
@@ -6,7 +6,7 @@ data — without relying on interim grades.
 
 ---
 
-## Problem Statement
+## 📌 Problem Statement
 
 Schools lack early warning systems to identify at-risk students
 before final exams. This project builds a predictive model using
@@ -15,21 +15,9 @@ background) to flag students who need intervention early.
 
 ---
 
-## Dataset
+## 📁 Project Structure
 
-- **Source** : UCI Machine Learning Repository
-- **Link**   : https://archive.ics.uci.edu/dataset/320/student+performance
-- **Size**   : 395 students, 33 features (Math course)
-- **Target** : Pass (G3 ≥ 10) or Fail (G3 < 10)
-
-> Note: Interim grades G1 and G2 were intentionally excluded
-> to simulate a real early-warning scenario where only
-> behavioral data is available before exams.
-
----
-
-## Project Structure
-
+```
 student-performance-predictor/
 ├── data/
 │   └── student-mat.csv
@@ -49,9 +37,10 @@ student-performance-predictor/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
+```
 ---
 
-## Approach
+## 📊 Approach
 
 | Step | Description |
 |------|-------------|
@@ -63,7 +52,7 @@ student-performance-predictor/
 
 ---
 
-## Results
+## 🤝 Results
 
 | Model | CV Accuracy | Test Accuracy | F1 Score |
 |-------|-------------|---------------|----------|
@@ -76,7 +65,7 @@ student-performance-predictor/
 
 ---
 
-## Key Insights
+## 💡 Key Insights
 
 1. **Past failures** is the strongest predictor (importance: 0.197)
    — students with 2+ failures pass at only 28.6%
@@ -93,11 +82,11 @@ student-performance-predictor/
 
 ---
 
-## How to Run
+## 🚀 How to Run
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/yourusername/student-performance-predictor.git
+git clone https://github.com/shivam-saurav-tech/student-performance-predictor.git
 cd student-performance-predictor
 ```
 
@@ -122,9 +111,23 @@ Download from UCI repository and place
 01_eda.ipynb
 02_preprocessing.ipynb
 03_model.ipynb
+
 ---
 
-## Technologies Used
+## 💾 Dataset
+
+- **Source** : UCI Machine Learning Repository
+- **Link**   : https://archive.ics.uci.edu/dataset/320/student+performance
+- **Size**   : 395 students, 33 features (Math course)
+- **Target** : Pass (G3 ≥ 10) or Fail (G3 < 10)
+
+> Note: Interim grades G1 and G2 were intentionally excluded
+> to simulate a real early-warning scenario where only
+> behavioral data is available before exams.
+
+---
+
+## 🧰 Technologies Used
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-2.x-blue)
@@ -141,22 +144,9 @@ Download from UCI repository and place
 
 ---
 
-## Resume Highlight
-
-> Built an end-to-end student performance prediction system
-> using Python, Pandas, NumPy and Scikit-learn on UCI dataset
-> (395 students). Performed EDA, feature engineering and trained
-> Random Forest classifier achieving 71.8% cross-validated
-> accuracy. Identified that high-risk students (2+ failures,
-> high absences) pass at only 28.6% vs 75.4% for low-risk
-> students — a 47 point gap enabling actionable early
-> intervention flagging.
-
----
-
-## Author
+## 👤 Author
 
 **Shivam Saurav**
-- GitHub  : github.com/saurav307
-- LinkedIn : https://www.linkedin.com/in/shivam-saurav-3062bb277/
-- Email : dar.saurav@email.com
+- GitHub  : [shivam-saurav-tech](https://github.com/shivam-saurav-tech)
+- LinkedIn : [shivam-saurav-tech](https://www.linkedin.com/in/shivam-saurav-tech)
+- Email : saurav.techx@email.com
